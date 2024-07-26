@@ -96,3 +96,99 @@ body{
   font-size: 14px;
   margin-right: 15px;
 }
+
+/* قسم عارض الشرائح  */
+
+#carousel-featured{
+  background-color: #f7f8f3;
+  height: 400px;
+  padding-top: 25px;
+}
+#carousel-featured .carousel-item  img {
+  height: 375px;
+}
+#carousel-featured .prodact-details {
+  border: 1px solid #ddddd8;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  height: 200px;
+  background-color: #f7f8f3;
+}
+#carousel-featured .prodact-details h1 {
+  font-weight: 700;
+  font-size: 175%;
+  margin-top: 18px;
+}
+#carousel-featured .prodact-details a {
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+#carousel-featured .prodact-details a:hover,
+#carousel-featured .prodact-details a:active,
+#carousel-featured .prodact-details a:focus,
+#carousel-featured .prodact-details a:active:focus,
+#carousel-featured .prodact-details a:active:hover,
+#carousel-featured .prodact-details a:hover {
+  border: 1px solid #b86d07;
+  background-color: transparent;
+  color: #b86d07;
+}
+.custom-btn-outline-worning {
+  border: 1px solid #f8ad47;
+  background-color: transparent;
+  color: #f8ad47;
+}
+
+#carousel-featured .prodact-details .prodact-category {
+  border: 1px solid #ddddd8;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background-color: #f7f8f3 ;
+}
+.sale {
+  background-color: #53ccd7;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+.sale-lg {
+height: 60px;
+width: 60px;
+border-radius: 50%;
+left: -15px;
+top: -15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 130%;
+padding: 35px;
+line-height: 90%;
+flex-direction: column;
+text-align: center;
+transform: rotate(-25deg);
+}
+.custom-carousel-indicators{
+  top: 235px;
+  right: 41%;
+}
+.custom-carousel-indicators-primary {
+  width: 70px !important;
+  height: 70px !important;
+  opacity: 1 !important;
+  border: solid 2px #ddddd8 !important;
+  margin: 0 !important;
+  margin-left: 5px !important;
+}
+.custom-carousel-indicators-primary.active{
+  border-color: #f8ad47 !important;
+}
+.icons-carousel {
+  color: black !important;
+}
+.icons-carousel i {
+  font-size: 38px;
+}
+/*// قسم عارض الشرائح  //*/
